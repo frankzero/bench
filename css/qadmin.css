@@ -1,0 +1,139 @@
+body{
+    background:#4682B4;
+}
+.wrapper{
+    width:849px;
+    overflow:hidden;
+    margin:0 auto;
+    background-color:#f9f9f9;
+    padding:10px;
+}
+#form1_wrapper{
+    width:500px;
+    padding:10px;
+    margin:0 auto;
+    
+    overflow:hidden;
+    float:left;
+}
+#form1_wrapper label{
+    display:inline-block;
+    width:50px;
+    text-align:right;
+    padding:5px;
+    margin-right:10px;
+}
+#form1_wrapper input{
+    display:inline-block;
+    width:400px;
+    padding:2px 5px;
+}
+#form1_wrapper button{
+    width:100px;
+    height:50px;
+    float:right;
+}
+
+#form2_wrapper{
+    width:305px;
+    padding:10px;
+    margin:0 auto;
+    
+    overflow:hidden;
+    float:left;
+}
+#form2_wrapper label{
+    display:inline-block;
+    width:50px;
+    text-align:right;
+    padding:5px;
+    margin-right:10px;
+}
+#form2_wrapper input{
+    display:inline-block;
+    width:100px;
+    padding:2px 5px;
+}
+#form2_wrapper button{
+    
+    
+}
+
+
+#form3_wrapper{
+    width:305px;
+    padding:10px;
+    margin:0 auto;
+    
+    overflow:hidden;
+    float:left;
+}
+
+#form4_wrapper{
+    width:500px;
+    padding:10px;
+    margin:0 auto;
+    overflow:hidden;
+    text-align:left;
+}
+#form4_wrapper label{
+    display:inline-block;
+    width:50px;
+    text-align:right;
+    padding:5px;
+    margin-right:10px;
+}
+#form4_wrapper input{
+    display:inline-block;
+    width:400px;
+    padding:2px 5px;
+}
+#form4_wrapper button{
+    width:100px;
+    height:50px;
+    float:right;
+}
+
+#content{
+    margin-top:20px;
+    text-align:center;
+    margin:0 auto;
+    overflow:hidden;
+}
+.link_wrapper{
+    display:inline-block;
+    position:relative;
+    cursor:pointer;
+}
+.link_wrapper img{
+}
+.link_wrapper h2{
+    position:absolute;
+    z-index:100;
+    bottom:0;
+    width:280px;
+    height:45px;
+    color:#fff;
+    padding:5px 10px;
+    line-height:23px;
+    font-size:15px;
+    letter-spacing:1px;
+    font-weight:bold;
+    background:rgba(0,0,0,0.75);
+    margin:0;
+}
+.link_wrapper:hover{
+
+}
+.link_wrapper:hover h2{
+    text-decoration:underline;
+}
+
+.nav{
+    margin:20px;
+}
+.nav a{
+    display:inline-block;
+    margin-left:5px;
+    font-size:1.2rem;
+}

@@ -1,0 +1,139 @@
+
+.image_upload .dropbox{
+    border: 2px dashed #707070;
+    border-radius: 2px;
+    width: 300px;
+    height: 50px;
+    margin: 10px 0px;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+    color: #6E6E6E;
+    letter-spacing: 1px;
+    float: left;
+}
+.image_upload .active{
+    background : #B4F9AC;
+    font-size: 15px;
+    box-shadow : 0px 0px 5px 6px #ccc;
+}
+.image_upload .progress-holder{
+    width: 150px;
+    padding: 2px;
+    background: #CCCCCC;
+    border-radius: 3px;
+    float: left;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+.image_upload .progress1{
+    height: 6px;
+    display:block;
+    width: 0%;
+    border-radius: 2px;
+    background: -moz-linear-gradient(center top , #13DD13 20%, #209340 80%) repeat scroll 0 0 transparent; /* IE hack */ 
+    background: -ms-linear-gradient(bottom, #13DD13, #209340); /* chrome hack */ 
+    background-image: -webkit-gradient(linear, 20% 20%, 20% 100%, from(#13DD13), to(#209340)); /* safari hack */ 
+    background-image: -webkit-linear-gradient(top, #13DD13, #209340); /* opera hack */ 
+    background-image: -o-linear-gradient(#13DD13,#209340);
+    box-shadow:3px 3px 3px #888888;
+}
+.image_upload .preview{
+    border: 1px solid #CDCDCD;
+    width: 281px;
+    padding: 10px;
+    height:auto; 
+    overflow: auto;
+    color: #4D4D4D;
+    float: left;
+    box-shadow:3px 3px 3px #888888;
+    border-radius: 2px;
+}
+.image_upload .percents{
+    float: right;
+}
+.image_upload .preview-image{
+    box-shadow: 3px 3px 3px #888888;
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 10px;
+}
+.image_upload .file-info{
+    height: 50px;
+    float: left;
+    width: auto;
+    margin-bottom: 10px;
+    border: 1px solid blue;
+}
+.image_upload .file-info span{
+    margin: 3px 2px;
+    font-size: 12px;
+    float:left;
+    display: block;
+    min-width: 100px;
+    overflow: auto;
+    border: 1px solid red;
+    overflow: none;
+}
+.image_upload .upload-progress{
+    display: none;
+    float:left;
+}
+.image_upload .complete_message{
+    width:200px;
+    float:left;
+}
+.image_upload input{
+    width:100%;
+    color:#4D4D4D;
+    background:#f0f0f0;
+    border:0;
+}
+
+.image_upload .img_box{
+    float:left;
+    width:108px;
+    height:117px;
+    padding:8px 6px;
+    border:1px solid #ddd;
+}
+.image_upload .img_box .img_wrapper{
+    display:inline-block;
+    width:102px;
+    height:80px;
+    overflow:hidden;
+    margin:0 auto;
+}
+.image_upload .img_box .img{
+    width:102px;
+}
+.image_upload .img_box .bar{
+    margin-top:10px;
+}
+.image_upload .img_box a{
+    cursor:pointer;
+    margin:0;
+    padding:0;
+    line-height:1.5;
+}
+.image_upload .img_box a img{
+    margin-right:3px;
+    vertical-align:middle;
+}
+.image_upload .img_box a img:nth-child(1){
+    margin-left:2px;
+}
+
+.image_upload .pageindex{
+    text-align:center;
+}
+.image_upload .pageindex a{
+    color:blue;
+    cursor:pointer;
+    margin-right:6px;
+}
+.image_upload .pageindex a:active{
+    color:red;
+    cursor:pointer;
+}
